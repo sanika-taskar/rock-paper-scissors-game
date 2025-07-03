@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    /* background-color: rgb(213, 114, 130); */
+    text-align: center;
+}
+
+h1{
+    background-color: rgb(54, 53, 52);
+    color: white;
+    height: 60px;
+    line-height: 60px;
+}
+.image-container{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 2rem;
+    
+}
+
+/* .image{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 20vmin;
+}  */
+
+.rock{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 100px;
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+    
+} 
+/* #rock1{
+    border-radius: 50%;
+    font-size: 100px;
+    cursor: pointer;
+} */
+
+.paper{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 100px;
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+    
+} 
+/* #paper1{
+    
+    border-radius: 50%;
+    font-size: 100px;
+    cursor: pointer;
+} */
+
+.scissor{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 100px;
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+    
+} 
+/* #scissors1{
+    border-radius: 50%;
+    font-size: 100px;
+    cursor: pointer;
+} */
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 5rem;
+}
+
+#msg{
+    background-color:  rgb(54, 53, 52);
+    display: inline;
+    color: white;
+    line-height: 150px;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 6px;
+}
+
+button{
+    background-color:  rgb(54, 53, 52);
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
